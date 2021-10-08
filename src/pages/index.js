@@ -13,8 +13,6 @@ import tshirt from '../images/t-shirt-design.jpg'
 // styles images
 import underline from '../images/underline.svg'
 import wideunderline from '../images/wide-underline.svg'
-import whatsapp from '../images/whatsapp.png'
-
 
 // markup
 const IndexPage = () => {
