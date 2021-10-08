@@ -1,6 +1,5 @@
 import * as React from "react"
 import mainblob from '../images/main-blob.svg'
-import sideblob from '../images/side-blob.svg'
 import Header from './components/Header'
 
 // service image start
@@ -19,28 +18,7 @@ const IndexPage = () => {
   return (
     <div class="bg-white">
       <Header />
-      {/* header start */}
-    {/* <header class="text-gray-600 body-font">
-  <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-    <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
-      <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-blue-500 rounded-full" viewBox="0 0 24 24">
-        <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
-      </svg>
-      <span class="ml-1 lg:ml-3 text-xl">MadhuriPrinters</span>
-    </a>
-    <nav class="md:ml-auto sm:mr-0 md:mr-10 flex flex-wrap items-center text-base justify-center">
-      <a href ="/" class="mx-2 text-xl text-indigo-900 hover:text-blue-600">Home</a>
-      <a href ="#services" class="mx-2 text-xl text-indigo-900 hover:text-blue-600">Services</a>
-      <a href ="#about" class="mx-2 text-xl text-indigo-900 hover:text-blue-600">About</a>
-    </nav>
-    <button href="#" class="hidden md:flex items-center btn-blue">
-      CALL NOW <svg class="w-5 h-5 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path></svg>
-    </button>
-  </div>
-</header> */}
-{/* header end */}
-
-
+      
 {/* hero start */}
 <section class="text-gray-800 body-font">
   <div class="container mx-auto flex p-5 lg:px-32 lg:py-12 md:flex-row flex-col items-center">
@@ -59,7 +37,6 @@ const IndexPage = () => {
     <div class="absolute md:left-80 lg:relative lg:-left-40 lg:max-w-4xl lg:w-full md:w-1/2 w-5/6 z-0">
       <img class="object-cover object-center rounded" alt="blob effect" src={mainblob} />
     </div>
-    <img class="absolute z-0 left-0 object-cover object-center rounded" alt="blob effect" src={sideblob} />
   </div>
   
 </section>
