@@ -1,6 +1,7 @@
 import * as React from "react"
 import mainblob from '../images/main-blob.svg'
 import sideblob from '../images/side-blob.svg'
+import Header from './components/Header'
 
 // service image start
 import offsetprinting from '../images/offset-printing.jpg'
@@ -19,8 +20,9 @@ import whatsapp from '../images/whatsapp.png'
 const IndexPage = () => {
   return (
     <div class="bg-white">
+      <Header />
       {/* header start */}
-    <header class="text-gray-600 body-font">
+    {/* <header class="text-gray-600 body-font">
   <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
     <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-blue-500 rounded-full" viewBox="0 0 24 24">
@@ -37,7 +39,7 @@ const IndexPage = () => {
       CALL NOW <svg class="w-5 h-5 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path></svg>
     </button>
   </div>
-</header>
+</header> */}
 {/* header end */}
 
 
@@ -142,9 +144,8 @@ const IndexPage = () => {
 
 {/* footer start */}
 
-<footer class="relative flex items-center container mx-auto p-5 md:font-medium">
+<footer class="container mx-auto p-5 md:font-medium">
   <p>Nunnungeria, Jhargram, West Bengal <br /> 721507. Phone no -</p>
-   <img class="absolute right-2 md:right-5 h-8 w-8" src={whatsapp} alt="Whatsapp Logo" />
 </footer>
 
 {/* footer end */}

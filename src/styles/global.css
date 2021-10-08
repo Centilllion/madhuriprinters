@@ -6,6 +6,10 @@ html {
   scroll-behavior: smooth;
 }
 
+.nav-link {
+  @apply py-8 md:py-1 md:px-4 mx-2 md:mx-0 text-xl text-indigo-900 hover:text-blue-600;
+}
+
 .btn-blue {
     @apply bg-blue-600 text-white  px-5 py-4 rounded-lg shadow-lg transform translate-y-0 transition-transform duration-100 ease-in-out hover:-translate-y-1 focus:-translate-y-1 mt-10 md:mt-0;
   }
@@ -14,3 +18,52 @@ html {
     background-color: rgb(37 99 235);
     color: rgba(255, 255, 255);
   }
+
+
+.hamburger {
+  position: absolute;
+  top: 4%;
+  right: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 2rem;
+  height: 2rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  z-index: 30;
+}
+
+.hamburger div {
+  width: 2rem;
+    height: 0.25rem;
+    background: #111827;
+    border-radius: 10px;
+    transition: all 0.3s linear;
+    position: relative;
+    transform-origin: 1px;
+}
+
+.hamburger.open div:first-child {
+  transform: rotate(45deg);
+}
+
+.hamburger.open div:nth-child(2) {
+  transform: translateX(20px);
+  opacity: 0;
+}
+
+.hamburger.open div:nth-child(3) {
+  transform: rotate(-45deg);
+}
+
+@media screen and (max-width: 767px) {
+  nav.close {
+    transform: translateX(-100%);
+  }
+  nav.open {
+    transform: translateX(0);
+  }
+}
