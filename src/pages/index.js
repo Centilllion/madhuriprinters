@@ -80,7 +80,7 @@ const IndexPage = () => {
 <figure class="imghvr-shutter-in-out-diag-2" >
   <img src={bookbinding} alt="Book Binding" />
   <figcaption>
-    <p class="text-lg mt-8">Book Binding</p>
+    <p class="text-lg mt-8">BookBinding</p>
   </figcaption>
   </figure>
 {/* <img src={bookbinding} alt="Book Binding" /> */}

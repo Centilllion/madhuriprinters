@@ -14,7 +14,7 @@ const Header = () => {
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-blue-500 rounded-full" viewBox="0 0 24 24">
         <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
       </svg>
-      <span class="ml-1 lg:ml-3 text-xl">MadhuriPrinters</span>
+      <span class="ml-1 lg:ml-3 text-xl">PrintIT</span>
     </a>
     <nav class={`absolute md:static bg-white md:bg-transparent top-0 w-screen md:w-auto h-screen md:h-full sm:mr-0 md:mr-0 flex flex-col md:flex-row flex-wrap items-center text-base justify-center z-20 transition-transform duration-500 ease-in-out ${open ? 'open' : 'close'}`}>
       <a href ="/" class="nav-link" onClick={()=>setOpen(!open)}>Home</a>
