@@ -28,11 +28,9 @@ const IndexPage = () => {
       <img class="absolute left-10 sm:left-40 md:left-50" src={wideunderline} alt="Stylish Underline SVG" />
       </h1>
       <p class="mb-8 lg:w-5/6 leading-relaxed md:text-xl">We use highest quality materials and technology that allow us to deliver the best product at your door step.</p>
-      {/* <div class="flex justify-center"> */}
       <button href="#" class="flex items-center btn-blue">
       CALL NOW <svg class="w-5 h-5 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path></svg>
     </button>
-      {/* </div> */}
     </div>
     <div class="absolute md:left-80 lg:relative lg:-left-40 lg:max-w-4xl lg:w-full md:w-1/2 w-5/6 z-0">
       <img class="object-cover object-center rounded" alt="blob effect" src={mainblob} />
@@ -101,7 +99,7 @@ const IndexPage = () => {
 
 <section id="about" class="container mx-auto bg-white my-10">
 <h2 class="text-center text-gray-900 text-2xl md:text-4xl font-medium">20+ YEARS OF EXPERIENCE</h2>
-<p class="leading-relaxed w-full px-2 mt-4 text-center mx-auto md:w-5/6 md:text-xl lg:w-4/6 xl:w-1/2">We are one of the oldest printing services in Jhargram with 20+ years of experience with satfisfied customers.</p>
+<p class="leading-relaxed w-full px-2 mt-4 text-center mx-auto md:w-5/6 md:text-xl lg:w-4/6 xl:w-1/2">We are one of the oldest printing services in Jhargram with 20+ years of experience rebranding to PRINTiT.</p>
 <div class="md:mt-5"><button href="#" class="mx-auto flex items-center  btn-blue">
       CALL NOW <svg class="w-5 h-5 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path></svg>
     </button> </div>
