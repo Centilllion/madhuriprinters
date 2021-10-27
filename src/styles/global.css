@@ -22,7 +22,7 @@ html {
 
 .hamburger {
   position: absolute;
-  top: 2%;
+  top: 3%;
   right: 1rem;
   display: flex;
   flex-direction: column;
